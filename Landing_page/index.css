@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(hotpink, blue, rgb(117, 66, 117));
+    min-height: 100vh;
+    font-family: sans-serif;
+   
+}
+#home{
+    color:white;
+}
+.align {
+
+    display: flex;
+    padding-left: 80px;
+    width: 40%;
+    text-decoration: none;
+    padding-top: 20px;
+
+}
+
+.none {
+
+    color:white;
+    padding-right: 40px;
+}
+
+.box {
+
+    border: 3px #00000099 solid;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    color:white;
+    background-color:rgb(46, 46, 235);
+    transition: transform .2s;
+       
+}
+.box:hover{
+    -ms-transform: scale(1.4); 
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4); 
+}
+
+.boxflex {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+       
+}
+
+.coloranim {
+    border: 2px black solid ;
+    width: 89.8%;
+    height: 500px;
+    margin: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding:20px;
+    color:white;
+    background-color:transparent;
+    animation-name:ex;
+    animation-duration: 7s;
+
+}
+@keyframes ex{
+    0%   {background-color:blue;}
+    25%  {background-color:blueviolet;}
+    50%  {background-color:rgb(162, 3, 219);}
+    75%  {background-color:cadetblue;}
+
+}
+
+
+.contact {
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    width: 89.8%;
+    height: 400px;
+    margin: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+
+
+}
+.p{
+    color:black;
+   
+}
+em{
+    color:darkslategrey;
+}
+b{
+    color:darkslategrey;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input[type=email]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.button{
+    margin-left:50px;
+    
+}
+.bor{
+padding:20px;
+text-align: center;
+}
